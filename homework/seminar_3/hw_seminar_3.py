@@ -36,9 +36,7 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-# some_list = [1.1, 1.2, 3.1, 5, 10.01] # Общий список для двух вариантов решения!!!
-
-##################     Первый вариант решения
+# some_list = [1.1, 1.2, 3.1, 5, 10.01]
 # max = 0
 # min = some_list[0]
 # for ind in range(len(some_list)):
@@ -49,10 +47,6 @@
 #         if min > num:
 #             min = num
 # print(max - min)
-
-##################     Второй вариант решения
-# rezult_lst = [round(i%1,2) for i in some_list if i%1 != 0]
-# print(max(rezult_lst) - min(rezult_lst))
 
 
 
